@@ -1,3 +1,13 @@
+# GhostChat
+
+**GhostChat** — a customer messaging and shared-inbox platform by **Ghost Developer Studio**: live chat, email, Messenger, Instagram, WhatsApp and more in one inbox, for small businesses that want to own their customer conversations.
+
+GhostChat is a rebrand of the open-source [Chatwoot](https://github.com/chatwoot/chatwoot) platform (MIT License — see `LICENSE`, untouched; the `enterprise/` directory remains under its separate upstream license and is untouched). Based on Chatwoot (MIT). Contact: gdev6145@gmail.com · https://www.facebook.com/ghostdeveloperstudio
+
+See `REBRAND_NOTES.md` for exactly what was changed. The upstream README follows below.
+
+---
+
 <img src="./.github/screenshots/header.png#gh-light-mode-only" width="100%" alt="Header light mode"/>
 <img src="./.github/screenshots/header-dark.png#gh-dark-mode-only" width="100%" alt="Header dark mode"/>
 
