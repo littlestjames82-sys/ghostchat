@@ -90,3 +90,16 @@ upstream updates stay easy to pull.
 - Nothing deployed, nothing public, no APK (this is a server app; a phone
   APK shell like DevPulse/GhostCut's only makes sense once it's hosted
   somewhere reachable).
+
+## GitHub (Oct 3, 2026)
+- Pushed at Ryan's request to **https://github.com/littlestjames82-sys/ghostchat**
+  (public fork of chatwoot/chatwoot, named `ghostchat` at fork time; repo
+  description set to GhostChat / Ghost Developer Studio).
+- The sandbox has no git-push credential, so the rebrand went up through the
+  GitHub Git Data API: blobs only for the 45 changed/new files on top of the
+  fork's upstream tree (commit `843385f`), then a tree + commit + ref update
+  on `develop`.
+- Commits: `7c5678b` (rebrand), `d4913f5` (restores upstream 100755 mode on
+  ChatInputWrap.vue).
+- Verified after push: remote recursive tree = 9,509 blobs, **0 differences**
+  (path, mode, SHA) against the local rebranded tree.
